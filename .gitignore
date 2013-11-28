@@ -7,3 +7,5 @@ local_settings.py
 /python_env
 
 .sass-cache
+melbdjango/resources
+*.min.css

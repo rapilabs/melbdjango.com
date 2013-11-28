@@ -21,4 +21,10 @@ Update the packages:
 
     pip install -r requirements.txt
 
+Install web resources & build SASS:
+
+    cd melbdjango
+    bower install
+    ./watch
+
 Start hacking!
