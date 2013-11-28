@@ -20,5 +20,14 @@ Set up virtualenv:
 Update the packages:
 
     pip install -r requirements.txt
+    
+Initialise the database:
+
+    cd melbdjango
+    ./manage.py syncdb
+    
+Migrate the modules:
+
+    ./manage.py sync <module-name>
 
 Start hacking!
